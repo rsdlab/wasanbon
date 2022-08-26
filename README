@@ -21,7 +21,7 @@ Setup
 -----
 ::
 
-   $ easy_install wasanbon
+   $sudo python3 setup.py install
 
 History
 -------
