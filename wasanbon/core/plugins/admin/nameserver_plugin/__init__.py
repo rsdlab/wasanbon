@@ -547,7 +547,7 @@ class Plugin(PluginFunction):
             preexec_fn = None
             pass
         else:
-            cmd = ['rtm-naming', '-p', ns.port]
+            cmd = ['rtm2-naming', '-p', ns.port]
             creationflag = 0
             preexec_fn = disable_sig
             pass
