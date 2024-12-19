@@ -69,7 +69,7 @@ def start_python_rtcd(filepath, verbose=False):
                 cmd = [exe, file, '-f', filepath]
                 break
     else:
-        cmd = ['rtcd2_python3', '-f', filepath]
+        cmd = ['rtcd2_python', '-f', filepath]
     p = subprocess.Popen(cmd, **args)
     # p.stdin.write('N\n')
     return p
